@@ -1,0 +1,714 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* header start css style */
+#div-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(42, 96, 158);
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+
+}
+
+/* logo width style------------------------ */
+.logo-container img{
+            width: 100px;
+            margin-left: 2em;
+}
+
+/* navbar style------------------------ */
+.navbar{
+        margin-right: 5em;
+       
+}
+
+/* navbar anchor tag style-------------- */
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 19.5px;
+    margin-right: 1.2em;
+}
+
+/* navbar hover style------------------- */
+.navbar a:hover{
+            color: aquamarine;
+            border-bottom: 2px solid aquamarine;
+}
+
+/* ul style none------------------- */
+ul{
+    list-style: none;
+}
+
+/* menu toggle style------------------ */
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: normal;
+    color: white;
+    margin-right: 2em;
+} 
+
+/* header end css style */
+
+/* main start css style */
+
+/* banner image style---------------------- */
+#banner img{
+        width: 100%;
+        height: 450px;
+}
+
+/* content div style------------------- */
+.content-div{
+    display: grid;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: -10em;
+
+}
+
+/* content div heading style------------------- */
+.content-div h1{
+            font-size: 3em;
+            margin-top: -6em;
+            color: white;
+}
+
+/* content div paragraph style----------------- */
+.content-div p{
+        font-size: 2em;
+        margin-top: -12em;
+        color: white;
+}
+
+/* button container style--------------------- */
+.button-div{
+        margin-top: -15em;
+        height: 150px;
+        text-align: center;
+        padding-top: 2em;
+}
+
+/* button style------------------- */
+.button-div button{
+        height: 35px;
+        width: 15%;
+        margin-left: 2em;
+        font-size: 20px;
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        cursor: pointer;
+}
+
+/* service container style------------------ */
+#service-div{
+        height: 140px;
+        margin-top: -1.5em;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+}
+
+.service-div{
+        font-size: 1.5em;
+        color: white;
+        margin-top: 2em;
+        padding: 15px;
+        text-align: center;
+}
+
+/* service paragraph style------------------ */
+.service-div p{
+        font-size: 21px;
+}
+
+#service-1{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+}
+
+.service-1{
+        color: white;
+        margin-top: 4em;
+        width: 23%;
+        height: auto;
+        text-align: center;
+}
+
+/* service-1 image style--------------- */
+.service-1 img{
+        width: 50px;
+}
+
+.service-1 button{
+        height: 30px;
+        min-width: 50%;
+        background-color: black;
+        color: rgb(224, 171, 72);
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+        margin-top: 1em;
+}
+
+#container-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: auto;
+
+}
+
+/* left contanet style----------------------- */
+.left-content{
+        height: auto;
+        width: 40%;
+
+}
+/* left contant heading style-------------------- */
+.left-content h2{
+        font-size: 2.5em;
+        padding-left: 10px;
+}
+
+/* left paragraph style------------------------ */
+.left-content p{
+        font-size: 18px;
+        padding-left: 10px;
+        margin-top: 1em;
+}
+
+/* content button style------------------------ */
+.left-content button{
+        height: 35px;
+        width: 28%;
+        cursor: pointer;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 1em;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(152, 196, 210);
+        
+}
+/* left content image style--------------------- */
+.left-content img{
+        width: 100%;
+        height: auto;
+}
+
+/* id container- 2 style--------------------- */
+#container-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+}
+
+/* firm div style------------------------------ */
+.firm-div{
+        text-align: center;
+        width: 40%;
+        font-size: 1.6em;
+}
+
+/* firm div paragraph size style---------------- */
+.firm-div p{
+        font-size: 21px;
+}
+
+/*container-3 style---------------- */
+#container-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 3em;
+        height: auto;
+        justify-content: space-evenly;
+}
+
+/* firm content width style----------------- */
+.firm-content{
+        width: 25%;
+}
+
+/* firm content image width style------------------- */
+.firm-content img{
+        width: 100%;
+}
+
+.content-div1{
+        height: 500px;
+        width: 45%;
+        margin-bottom: 5em;
+        display: grid;
+        justify-content: start;
+        align-items: center;
+}
+/* box container style----------------------------- */
+.box{
+        display: grid;
+        cursor: pointer;
+        padding: 4px;
+        padding-bottom: 1em;
+        border-bottom: 1px solid rgb(183, 178, 178);
+        border-top:1px solid rgb(183, 178, 178);
+}
+
+/* box images style---------------------- */
+.box img{
+        width: 45px;
+}
+
+/* box heading style--------------------- */
+.box h2{
+        margin-top: 0.5em;
+        color: orange;
+}
+
+/* box paragraph styel-------------------- */
+.box p{
+        margin-top: 0.5em;
+}
+
+/* justice container style---------------- */
+#justice-container{
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 3em;
+}
+
+/* justice card style---------------------- */
+.card{
+        background-color: white;
+        height: auto;
+        width: 25%;
+        margin: auto;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+/* card hover style------------------------ */
+.card:hover{
+        /* transform: scale(1.03); */
+        color: orange;
+        
+}
+
+/* card images style---------------------- */
+.card img{
+        padding: 1em;
+}
+
+/* card heading style---------------------- */
+.card h2{
+        color: orange;
+        text-align: center;
+}
+
+/* card title name style------------------ */
+.card p{
+        color: black;
+        text-align: center;
+        padding: 1em;
+}
+
+/* main end css style */
+
+
+/* footer style */
+
+/* main footer container style--------------------- */
+#footer-div{
+        background-color: rgb(18, 20, 20);
+        display: flex;
+        justify-content: center;
+        margin-top: 6em;
+        align-items: center;
+        height: auto;
+        text-align: center;
+}
+
+/* main footer style------------------------ */
+.footer-div{
+    font-size: 18px;
+    line-height: 2em;
+    color: white;
+    
+}
+
+/* footer anchor tag style--------------------- */
+.footer-div a{
+        margin: 0.2em;
+        flex-shrink: 1;
+      
+}
+
+/* footer icon hover style-------------------- */
+.footer-div img:hover{
+        background-color: green;
+        border-radius: 50%;
+        transform: scale(1.3);
+}
+
+/* responsive for laptop*/
+@media only screen and (min-width:900px){
+        #banner,#service-div ,#service-1,#footer,#container-1,#container-2,#container-3,#justice-container{
+            height: auto;
+        }
+       
+            .content-div h1{
+                    font-size: 2.5em;
+            }
+    
+            .content-div p{
+                    font-size: 1.5em;
+            }
+    
+            .button-div button{
+                    font-size: 1em;
+                    margin-top: 3em;
+                    width: 17%;
+                    padding: 8px;
+                    height: auto;
+            }
+    
+            .service-div h2,.firm-div h2{
+                    font-size: 1.6em;
+            }
+            
+            .service-div p{
+                    font-size: 24px;
+            }
+    
+            .service-1{
+                    width:21%;
+            }
+    
+            .left-content{
+                    width: 40%;
+                    height: auto;
+                    padding: 10px;
+            }
+
+            .left-content button{
+                        width: 40%;
+            }
+         
+            .firm-div{
+                    width: 100%;
+            } 
+
+            .firm-content img{
+                        width: 120%;
+                       
+            } 
+
+            .content-div1{
+                height: auto;
+            }
+
+            .footer-div{
+                    width: 100%; 
+                    height: auto;      
+            }
+    
+            .footer-div a{
+                    flex-grow: 1;      
+            }    
+    }
+
+/* responsive for laptop*/
+@media only screen and (max-width:900px){
+    #banner,#service-div ,#service-1,#footer,#container-1,#container-2,#container-3,#justice-container{
+        height: auto;
+    }
+    .navbar{
+            display: none;
+    }
+
+    .navbar {
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+        }
+
+        .logo-container img{
+            width: 100px;
+        }
+        
+        .navbar {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width:100%;
+        position: absolute;
+        top: 100px;
+        background-color: black;
+        padding: 10px 0;
+        
+        }
+        
+        .navbar.active {
+        display: flex;
+        }
+        
+        .navbar a {
+        display: block;
+        padding: 10px;
+        margin: 5px 0px;
+        }
+        
+        .navbar button{
+                height: auto;
+                width: auto;
+                /* flex-wrap: wrap; */
+        }
+        
+        .menu-toggle {
+        display: block;
+        cursor: pointer;
+        }
+
+        .content-div h1{
+                font-size: 2.5em;
+        }
+
+        .content-div p{
+                font-size: 1.5em;
+                /* margin-top: -2em; */
+        }
+
+        .button-div button{
+                font-size: 1em;
+                margin-top: 3em;
+                width: 30%;
+                padding: 8px;
+                height: auto;
+        }
+
+        .service-div h2,.firm-div h2{
+                font-size: 1.6em;
+        }
+        
+        .service-div p{
+                font-size: 24px;
+        }
+
+        .service-1{
+                width:30%;
+        }
+
+        .left-content{
+                width: 98%;
+                height: auto;
+                padding: 10px;
+        }
+
+        .left-content button{
+                width: 30%;
+        }
+
+        .firm-div{
+                width: 95%;
+        }
+
+        .firm-content img{
+                display: none;
+        }
+
+        .content-div1,.box{
+                width: 95%;
+                /* padding-top: 10em; */
+                margin-left: 0.5em;
+                height: auto;
+        }
+
+        .card{
+                width: 30%;
+        }
+
+        .footer-div{
+                width: 100%;       
+        }
+
+        .footer-div a{
+                flex-grow: 1;      
+        }    
+}
+
+/* responsive for tablet */
+@media only screen and (max-width:768px){
+    #banner,#service-div,#service-1,#container-1,#container-2,#container-3,#justice-container{
+        height: auto;
+    }
+    .content-div h1{
+        font-size: 2.5em;
+}
+
+.content-div p{
+        font-size: 1.5em;
+        /* margin-top: -2em; */
+}
+
+.button-div button{
+        font-size: 1em;
+        margin-top: 3em;
+        width: 30%;
+        padding: 8px;
+        height: auto;
+}
+
+.service-div h2,.firm-div h2{
+        font-size: 1.6em;
+}
+
+.service-div p{
+        font-size: 24px;
+}
+
+.service-1{
+        width:35%;
+}
+
+.left-content{
+        width: 98%;
+        margin-top: 2em;
+        height: auto;
+        padding: 10px;
+}
+
+.left-content h2{
+        font-size: 2.2em;
+}
+
+.firm-div{
+        width: 95%;
+}
+
+.content-div1,.box{
+        width: 95%;
+        margin-left: 0.5em;
+        height: auto;
+}
+
+.card{
+        width: 40%;
+        margin-top: 1em;
+        
+}
+
+}
+
+/* responsive for phone */
+@media only screen and (max-width:480px){
+    #banner,#service-div,#service-1,#container-1,#container-2,#container-3,#justice-container{
+        height: auto;
+    }
+
+    .content-div{
+            width: 95%;
+            /* height: auto; */
+    }
+    .content-div h1{
+        font-size: 2em;
+        margin-top: -11em;
+        
+}
+
+.content-div p{
+        font-size: 1.3em;
+        margin-top: -20em;
+}
+
+
+.button-div button{
+        font-size: 1em;
+        margin-top: 1em;
+        margin-right: 2em;
+        width: auto;
+        padding: 8px;
+        height: auto;
+}
+
+.service-div h2,.firm-div h2{
+        font-size: 1.3em;
+}
+
+.service-div p{
+        font-size: 19px;
+}
+
+.service-1{
+        width:95%;
+}
+
+.left-content{
+        width: 98%;
+        margin-top: 2em;
+        height: auto;
+        padding: 10px;
+}
+
+.left-content h2{
+        font-size: 2em;
+}
+
+.left-content button{
+        height: auto;
+        width: 95%;
+        padding: 8px;
+}
+
+.left-content img{
+        margin-top: -1em;
+}
+
+.firm-div{
+        width: 95%;
+}
+
+.content-div1,.box{
+        width: 95%;
+        margin-left: 0.5em;
+        height: auto;
+}
+
+.card{
+        width: 90%;
+        margin-top: 1em;
+}
+
+}

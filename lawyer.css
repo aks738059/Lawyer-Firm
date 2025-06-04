@@ -1,0 +1,207 @@
+ *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-style: italic;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(black, white);
+            background-size: cover;
+        }
+        
+        /* banner container style---------------- */
+        #banner{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+
+        /* banner image style------------------ */
+        .banner{
+                margin-top: -2.4em;
+               
+        }
+        
+        /* heading style---------------------- */
+        .banner h1{
+            margin-left: 0.2em;
+            padding-left: 1.5em;
+            color:white;
+            font-size: 3.5em;
+               
+        }
+
+        /* lawyer box container style---------------- */
+       #box-container{
+                display: flex;
+                margin-top: 5em;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+       }
+
+       /* lawyer box style----------------- */
+       .box{
+            width: auto;
+            margin-top: 2em;
+            background-color: aliceblue;
+            border-radius: 10px;
+            border: 1px solid black;
+       }
+
+       /* lawyer image style----------------- */
+       .box img{
+            max-width: 90%;
+            margin-left: 1em;
+            padding-top: 10px;
+            
+           
+       }
+
+       /* lawyer name style---------------- */
+       .box h2{
+            text-align: center;
+            font-size: 1.5em;
+       }
+
+       /* lawyer title style------------------- */
+       .box p{
+            font-size: 1em;
+            text-align: center;
+       }
+       /* button style---------------------- */
+       .btn{
+            width: 95%;
+            height: 30px;
+            margin-left: 0.5em;
+            margin-top: 1em;
+            cursor: pointer;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            /* margin: 10px; */
+       }
+
+
+       /* make responsive */
+
+       /* responsive for laptop */
+      @media only screen and (min-width:900px){
+            #box-container{
+                height: auto;
+            }
+
+            .box img{
+                    width: 100%;
+                    height: auto;
+            }
+
+            .box h2{
+                    padding: 5px;
+            }
+
+            .box{
+                width: 25%;
+            }
+      }
+       
+       /* responsive for laptop */
+      @media only screen and (max-width:900px){
+            #box-container{
+                height: auto;
+            }
+
+            .box img{
+                    width: 100%;
+                    margin: auto;
+                    height: auto;
+            }
+
+            .box h2,p{
+                    padding: 5px;
+            }
+
+            .btn{
+                min-width: 95%;
+                margin-left: 0.5em;
+                padding-right: auto;
+                margin-top: 5px;
+                text-align: center;
+            }
+
+            .box{
+                width: 30%;
+            }
+      }
+
+       /* responsive for tablet */
+       @media only screen and (max-width:768px){
+            #box-container{
+                height: auto;
+            }
+
+            .banner h1{
+                    font-size: 2.8em;
+                    margin-top: 1em;
+                    margin-left: -0.5em;
+            }
+
+            .box img{
+                    width: 100%;
+                    margin: auto;
+                    height: auto;
+            }
+
+            .box h2,p{
+                    padding: 5px;
+            }
+
+            .btn{
+                min-width: 95%;
+                margin-left: 0.5em;
+                padding-right: auto;
+                margin-top: 5px;
+                text-align: center;
+            }
+
+            .box{
+                width: 40%;
+            }
+      }
+
+       /* responsive for phone */
+       @media only screen and (max-width:480px){
+            #box-container{
+                height: auto;
+            }
+
+            .banner h1{
+                    font-size: 1.8em;
+                    margin-top: 1em;
+            }
+
+            .box img{
+                    width: 100%;
+                    margin: auto;
+                    height: auto;
+            }
+
+            .box h2,p{
+                    padding: 5px;
+            }
+
+            .btn{
+                min-width: 95%;
+                margin-left: 0.5em;
+                margin-top: 5px;
+                text-align: center;
+            }
+
+            .box{
+                width: 80%;
+            }
+      } 

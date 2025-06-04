@@ -1,0 +1,231 @@
+ * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-style: italic;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+
+        body {
+            background-image: url(banner/Brown\ and\ White\ Simple\ Law\ Firm\ Legal\ Services\ Promotion\ Instagram\ Post.png);
+            background-repeat: no-repeat;
+            opacity: 100;
+            background-size: cover;
+        }
+
+        /* appointment container style-------------- */
+        #appointment {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8em;
+            flex-wrap: wrap;
+        }
+
+        /* appointment heading style------------- */
+        .appointment {
+            text-align: center;
+            font-size: 1.5em;
+            color: white;
+            width: auto;
+            word-wrap: break-word;
+            margin-top: auto;
+        }
+
+        /* form style------------------------ */
+        #form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* form container style--------------------- */
+        .form-container {
+            font-size: 1.2em;
+            color: white;
+            width: calc(100%/2);
+            margin-top: 2em;
+        }
+
+        /* input text style-------------------------- */
+        .form-container input {
+            width: 100%;
+            height: 40px;
+            padding-left: 5px;
+            font-size: 20px;
+        }
+
+        /* input hover style------------------------- */
+        .form-container input:hover {
+            box-shadow: 0px 0px 1.5px blue;
+
+        }
+
+        /* select dropdown style---------------------- */
+        select {
+            width: 50%;
+            height: 40px;
+            padding-left: 5px;
+            font-size: 20px;
+        }
+
+        /* textarea style-------------------------- */
+        textarea {
+            width: 100%;
+            font-size: 20px;
+            padding-left: 5px;
+        }
+
+        /* textarea hover style-------------------- */
+        textarea:hover {
+            box-shadow: 0px 0px 1.5px blue;
+
+        }
+
+        /* button container style---------------- */
+        .btn {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+
+        /* save button style-------------------- */
+        .btn button {
+            width: 20%;
+            height: 40px;
+            border: 1px solid white;
+            background-color: rgb(251, 43, 43);
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .btn button:hover {
+            transform: scale(1.03);
+        }
+
+        /* submit button style----------------- */
+        #btn {
+            width: 20%;
+            height: 40px;
+            border: 1px solid white;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+            background-color: green;
+        }
+
+        /* make responsive all screen */
+
+        /* responsiver for large screen */
+        @media only screen and (min-width:900px) {
+
+            #appointment,
+            #form-container {
+                height: auto;
+            }
+
+            .form-container {
+                width: 50%;
+            }
+        }
+
+        /* responsiver for laptop */
+        @media only screen and (max-width:900px) {
+
+            #appointment,
+            #form-container {
+                height: auto;
+            }
+
+            .form-container {
+                width: 80%;
+            }
+
+            select{
+                width: 100%;
+            }
+        }
+
+        /* responsiver for tablet */
+        @media only screen and (max-width:768px) {
+
+            #appointment,
+            #form-container {
+                height: auto;
+            }
+
+            .appointment h1 {
+                font-size: 1.8em;
+            }
+
+            .appointment p {
+                font-size: 18px;
+            }
+
+            .form-container {
+                width: 90%;
+            }
+
+            select{
+                width: 100%;
+            }
+
+            .form-container h2 {
+                font-size: 1.5em;
+            }
+
+            .form-container,
+            label,
+            input {
+                font-size: 17px;
+            }
+        }
+
+        /* responsiver for phone*/
+        @media only screen and (max-width:480px) {
+
+            #appointment,
+            #form-container {
+                height: auto;
+            }
+
+            .appointment h1 {
+                font-size: 1.4em;
+            }
+
+            .appointment p {
+                font-size: 17px;
+            }
+
+            .form-container {
+                width: 90%;
+            }
+
+            select{
+                width: 100%;
+            }
+
+            .form-container h2 {
+                font-size: 1.4em;
+            }
+
+            .form-container input,
+            textarea,
+            select {
+                font-size: 16px;
+            }
+
+            #btn,
+            .btn button {
+                width: 100%;
+                margin-top: 0.5em;
+                padding: 10px;
+            }
+        }

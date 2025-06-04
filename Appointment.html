@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawyer Firm || Get Appointment</title>
+    <link rel="stylesheet" href="hide.css">
+    <link rel="stylesheet" href="Appointment.css">
+</head>
+
+<body>
+    <header>
+        <div id="div-container">
+            <div class="logo-container">
+                <a href="Index.html"><img src="logo/Screenshot_2025-04-14_214945-removebg-preview.png" alt="logo"></a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="Index.html">HomePage</a>
+                        <a href="Appointment.html">Get Appointment</a>
+                        <a href="Our Lawyer.html">Our lawyers</a>
+                        <a href="Clientintake.html">Client Intake</a>
+                        <a href="Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="menu-toggle">&#9776;</span>
+        </div>
+    </header>
+    <main>
+        <div id="appointment">
+            <div class="appointment">
+                <h1>Appointment Form</h1><br>
+                <p>To schedule an appointment, please fill out the information below.</p>
+            </div>
+        </div>
+
+        <div id="form-container">
+            <div class="form-container">
+                <form action="php">
+                    <h2>Appointment Detail</h2><br>
+                    <label for="text">Please select an appointment date</label>
+                    <input type="date" name="date" required><br></br>
+                    <h2>Contact Information</h2><br>
+                    <label for="text">Name</label><br>
+                    <input type="text" name="name" placeholder="First Name" required><br></br>
+                    <input type="text" name="name" placeholder="Last Name" required><br></br>
+                    <label for="text">Phone No.</label>
+                    <input type="number" name="text" placeholder="Please enter a valid phone number." required><br></br>
+                    <label for="text">E-mail.</label>
+                    <input type="email" name="text" placeholder="example#example.com" required><br></br>
+                    <label for="text">Best method for contacting you? .</label><br>
+                    <select name="dropdown" id="dropdown">
+                        <option value="please select">Please Select</option>
+                        <option value="phone">Phone</option>
+                        <option value="email">Email</option>
+                    </select><br></br>
+                    <label for="text">Best time of day to reach you?</label><br>
+                    <select name="dropdown" id="dropdown">
+                        <option value="please select">Please Select</option>
+                        <option value="morning">Morning</option>
+                        <option value="noon">Noon</option>
+                        <option value="afternoon">Afternoon</option>
+                        <option value="evening">Evening</option>
+                        <option value="night">Night</option>
+                    </select><br></br>
+                    <label for="text">How can we help you? </label><br>
+                    <textarea name="" id="" cols="30" rows="6" placeholder="Type here......"></textarea><br></br>
+                    <label for="text">Additional notes:  </label><br>
+                    <textarea name="" id="" cols="30" rows="6" placeholder="Type here......"></textarea><br></br>
+                    <div class="btn">
+                        <button>Save</button>
+                        <button id="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+
+
+        </div>
+    </main>
+    <footer>
+        <div id="footer-div">
+            <div class="footer-div">
+                <p>&copy; Lowyer Firm 2025. All Right Reserve</p>
+                <p>Design & Developed By: Hindsol Software Pvt. Ltd</p>
+                <a href="https://www.facebook.com/"><img src="icon/facebook-icon-removebg-preview.png" alt="facebook-icon" width="30px"></a>
+                <a href="https://www.instagram.com/"><img src="icon/instagram-icon-removebg-preview.png" alt="instagram-icon" width="30px"></a>
+                <a href="https://web.telegram.org/k/"><img src="icon/telegran-icon-removebg-preview.png" alt="telegram-icon" width="30px"></a>
+                <a href="https://www.linkedin.com"><img src="icon/linkedin-removebg-preview.png" alt="linkden-icon" width="30px"></a>
+                <a href="https://twitter.com/i/flow/signup"><img src="icon/twitter-icon-removebg-preview.png" alt="twitter-icon" width="30px"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggleButton = document.querySelector(".menu-toggle");
+            const navbar = document.querySelector(".navbar");
+
+            toggleButton.addEventListener("click", function () {
+                navbar.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+
+</html>

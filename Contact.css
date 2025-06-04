@@ -1,0 +1,302 @@
+* {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-style: italic;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           
+        }
+
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /* contact background style----------------- */
+        #back-ground {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(42, 96, 158);
+            align-items: center;
+            margin-top: em;
+            height: 300px;
+        }
+
+        /* content text style-------------------------- */
+        .back-ground {
+            max-width: auto;
+            height: auto;
+            color: white;
+            font-style: italic;
+            font-size: 2.5em;
+        }
+
+        /* content container style----------------------------- */
+        #center-content {
+            display: flex;
+            justify-content: center;
+            height: 250px;
+            align-items: center;
+        }
+
+        /* content style----------------------------- */
+        .center-content {
+            width: 90%;
+            text-align: center;
+            /* font-style: italic; */
+            font-size: 1.5em;
+        }
+
+        /* message text style------------------------- */
+        #message-container {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        /* message heading style--------------------- */
+        .message-container h2 {
+            font-size: 1.8em;
+            font-style: italic;
+        }
+
+        /* message heading style--------------- */
+        #message {
+            font-size: 2.5em;
+            margin-top: 0.5em;
+        }
+
+        #form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2em;
+            height: auto;
+        }
+
+        .form-container {
+            width: 70%;
+        }
+
+        /* form container input style--------------------- */
+        .form-container input {
+            width: 100%;
+            font-style: italic;
+            padding-left: 10px;
+            border: 1px solid rgb(117, 80, 43);
+            border-radius: 5px;
+            font-size: 20px;
+            height: 40px;
+        }
+
+        /* form container input hover style------------------- */
+        .form-container input:hover {
+            background-color: rgb(244, 243, 242);
+            border-radius: 5px;
+            transform: scale(1.01);
+        }
+
+        /* textarea style--------------------- */
+        textarea {
+            width: 100%;
+            padding-top: 10px;
+            padding-left: 10px;
+            border-radius: 50%;
+            border: none;
+            border: 1px solid rgb(117, 80, 43);
+            border-radius: 5px;
+            font-size: 20px;
+        }
+
+        /* textarea hover style---------------------- */
+        textarea:hover {
+            background-color: rgb(244, 243, 242);
+            border-radius: 5px;
+            transform: scale(1.01);
+        }
+
+        /* button container style----------------- */
+        #button {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* send button style------------------- */
+        #btn {
+            width: 28%;
+            height: 35px;
+            font-size: 20px;
+            border-radius: 5px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            color: white;
+            cursor: pointer;
+            background-color: orange;
+        }
+
+        /* iframe map style-------------------- */
+        #map {
+            display: flex;
+            justify-content: center;
+            margin-top: 3em;
+            align-items: center;
+        }
+
+
+        /* responsive for laptop */
+        @media only screen and (min-width:900px) {
+
+            #center-content,
+            #message-container,
+            #form-container {
+                height: auto;
+
+            }
+
+            .center-content,
+            .message-container {
+                width: 95%;
+                padding: 10px;
+                margin-top: 2em;
+            }
+
+            .form-container {
+                width: 70%;
+            }
+
+            #btn {
+                width: 25%;
+            }
+
+            #map {
+                width: 100%;
+            }
+        }
+
+
+        /* responsive for laptop */
+        @media only screen and (max-width:900px) {
+
+            #center-content,
+            #message-container,
+            #form-container {
+                height: auto;
+
+            }
+
+            .center-content,
+            .message-container {
+                width: 95%;
+                padding: 10px;
+                margin-top: 2em;
+            }
+
+            .form-container {
+                width: 90%;
+            }
+
+            #map,
+            iframe {
+                width: 100%;
+            }
+        }
+
+        /* responsive for tablet */
+
+        @media only screen and (max-width:768px) {
+
+            #center-content,
+            #message-container,
+            #form-container {
+                height: auto;
+
+            }
+
+            .center-content,
+            .message-container {
+                width: 95%;
+                padding: 10px;
+                margin-top: 2em;
+            }
+
+            .back-ground h1 {
+                font-size: 1.5em;
+            }
+
+            .center-content p {
+                font-size: 20px;
+            }
+
+            .message-container h2 {
+                font-size: 1.8em;
+            }
+
+            #message {
+                font-size: 2em;
+            }
+
+            .form-container {
+                width: 90%;
+            }
+
+            #map,
+            iframe {
+                width: 100%;
+            }
+        }
+
+        /* responsive for phone */
+
+        @media only screen and (max-width:480px) {
+
+            #center-content,
+            #message-container,
+            #form-container {
+                height: auto;
+
+            }
+
+            .center-content,
+            .message-container {
+                width: 95%;
+                padding: 10px;
+                margin-top: 2em;
+            }
+
+            .back-ground {
+                width: auto;
+            }
+
+            .back-ground h1 {
+                font-size: 1em;
+            }
+
+            .center-content p {
+                font-size: 20px;
+            }
+
+            .message-container h2 {
+                font-size: 1.6em;
+            }
+
+            #message {
+                font-size: 1.9em;
+            }
+
+            .form-container {
+                width: 90%;
+            }
+
+            #btn {
+                width: 40%;
+            }
+
+            #map,
+            iframe {
+                width: 100%;
+            }
+        }
